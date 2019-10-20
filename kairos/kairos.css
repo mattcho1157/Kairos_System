@@ -1,0 +1,326 @@
+
+/*__________________________________general__________________________________*/
+
+h2 {
+	font: 700 35px 'Playfair Display', serif;
+	color: #303e49;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: 60px auto 25px auto;
+}
+
+h3 {
+	font: 22px 'Raleway', sans-serif;
+	color: #303e49;
+	text-align: center;
+}
+
+p, li {
+	font: 18px 'Raleway', sans-serif;
+	color: #444444;
+	line-height: 35px;
+}
+
+th {font-size: 16px;}
+td {font: 16px 'Raleway', sans-serif; color: #444444;}
+
+.container {max-width: 760px;}
+.navbar {
+	background-color: white;
+	border: none;
+	box-shadow: 0 10px 20px -22px grey;
+}
+.navbar-brand {height: 70px;}
+.navbar-toggle {margin-top: 18px;}
+.navbar-nav {margin: 0;}
+
+#current-page {color: #990000 !important}
+.navbar-nav li:hover {background-color: #f7f7f7;}
+.navbar-nav li a, .navbar-header a {
+	padding: 0px 25px;
+	line-height: 70px;
+	font-size: 15px;
+	color: #2d2d2d !important;
+}
+.navbar-brand img {
+	height: 40px;
+	margin-right: 10px;
+}
+
+.banner {
+	width: 100%;
+	height: 320px;
+	text-align: center;
+}
+
+.banner h1 {
+	padding: 0 20px;
+	color: white;
+	font: 50px 'Playfair Display', serif;
+	letter-spacing: 3px;
+	position: relative;
+	top: 55%;
+	transform: translate(0, -50%);
+}
+
+.general-banner {
+	background: url('img/generalbanner.jpg') no-repeat center center; 
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.page-content {
+	width: 90%;
+	margin: 60px auto;
+	text-align: center;
+}
+
+.button {
+	border: 1px solid #990000;
+	color: #990000;
+	padding: 8px 30px;
+	transition: ease 0.3s;
+	text-decoration: none;
+}
+.button:hover {background-color: #990000; color: white;}
+.button, .button:hover, .button:active, .button:visited, .button:focus {text-decoration: none;}
+
+input[type=text], input[type=password] {
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid grey;
+	box-shadow: none;
+	color: #444444;
+	font: 16px 'Raleway', sans-serif;
+}
+input[type=text]:focus, input[type=password]:focus {border-color: #b20c2a; box-shadow: none;}
+input[type=text]:-webkit-autofill, input[type=password]:-webkit-autofill {-webkit-text-fill-color: #444444;}
+
+.textarea-form {width: 550px; margin: 30px auto;}
+.textarea-form textarea {
+	font: 16px 'Raleway', sans-serif;
+	color: #444444;
+	height: 100px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.textarea-form textarea:focus {
+	outline: none !important;
+	border: none;
+	box-shadow: 0 0 7px #c76363;
+}
+
+.alert {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin: 0;
+	width: 100%;
+	z-index: 9999;
+	border-radius: 0px;
+}
+.close {
+	position: relative;
+	right: 0px !important;
+	float: left !important;
+	margin-right: 15px;
+}
+
+/*_________________________________index.php_________________________________*/
+
+.index-banner {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background: url('img/indexbanner.jpg') no-repeat left center;
+	background-size: cover;
+}
+
+.index-banner-content {
+	width: 100%;
+	position: absolute;
+	top: 52%;
+	transform: translate(0, -50%);
+}
+
+.index-banner-content h1 {
+	font: 30px 'Playfair Display', serif;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.index-banner-content h2 {
+	font: 65px 'Raleway', sans-serif;
+	letter-spacing: 8px;
+	margin: 25px 0 60px 0;
+	color: white;
+}
+
+.index-banner-content p {
+	font: 18px 'Raleway', sans-serif;
+	color: #fffdb0;
+	width: 45%;
+	margin: auto;
+}
+
+/*__________________________________info.php_________________________________*/
+
+#info-banner {
+	background: url('img/infobanner.jpg') no-repeat center top; 
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.info-content {width: 75%; margin: 0 auto 50px auto;}
+
+.info-quote {
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	background: url('img/josephbanner.jpg') no-repeat center top; 
+	background-size: cover;
+}
+
+.info-quote p {
+	width: 80%;
+	margin: auto;
+	font: 20px 'Raleway', sans-serif;
+	color: #fffdb0;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.info-kairos-label {
+	font: 25px 'Playfair Display', serif;
+	text-align: center;
+	color: #303e49;
+}
+
+.dates div {text-align: center;}
+
+/*_________________________________login.php_________________________________*/
+
+.login-content {width: 90%; margin: 60px auto;}
+.login-content div {padding: 0 20px 0 20px;}
+
+/*_________________________________enrol.php__________________________________*/
+
+.enrol-form {text-align: center;}
+.enrol-form .form-group {width: 250px; margin: 50px auto;}
+
+.form-select-group .form-control {
+	font: 20px 'Raleway', serif;
+	border: none;
+	border-bottom: 1px solid grey;
+	box-shadow: none;
+	padding: 5px 10px;
+}
+.form-select-group .form-control:focus {border-color: #b20c2a;}
+.form-select-group label {font-size: 18px; margin-bottom: 10px;}
+
+/*_________________________________students.php__________________________________*/
+
+.students-tab {background-color: #f7f7f7; overflow: hidden;}
+.students-tab a {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	font: 18px 'Raleway', sans-serif;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+	transition: ease 0.3s;
+	color: #a3a3a3;
+}
+.students-tab a:hover {color: #990000;}
+
+#current-tab {color: #990000;}
+
+/*Student Profiles*/
+
+.searchbar {width: 280px; text-align: center; margin: 50px auto 0 auto;}
+.namesuggestions {
+	width: 280px; 
+	font: 16px 'Raleway', sans-serif; 
+	line-height: 35px;
+	color: #444444;
+}
+.namesuggestions:hover {text-decoration: none; color: #225a8f;}
+#nosuggestion {pointer-events: none; cursor: default;}
+#namesearch {
+	width: 280px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 0 0 7px #c76363;
+	border-radius: 0 0 10px 10px;
+}
+
+.studentprofile-table {
+	margin: 30px auto 20px auto;
+	border-collapse: separate;
+	border-spacing: 25px 15px;
+}
+.studentprofile-table th {text-align: right;}
+.studentprofile-table td {text-align: left;}
+
+/*Student List*/
+
+.studentlistoptions-table {
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin: 0 auto 50px auto;
+}
+#groupby-heading {padding-left: 30px;}
+.studentlistoptions-table {font: 20px 'Raleway', sans-serif; color: #444444;}
+
+.studentlist-table {width: 70%; margin: auto;}
+.studentlist-table th {width: 150px; margin-right: 60px;}
+.studentlist-table td {text-align: left;}
+
+/*_______________________________retreats.php________________________________*/
+
+.retreats-table th, .positions-table th {text-align: center;}
+#exceedingpositions {color: #b20c2a;}
+
+/*___________________________________rolls___________________________________*/
+
+/*roll.php*/
+
+.rollsummary {width: 80%; margin: auto;}
+.rollsummary th {text-align: center;}
+.rollsummary .button {font-size: 14px; padding: 3px 15px;}
+
+/*saveroll.php*/
+
+.rollname {width: 300px; text-align: center; margin: 30px auto 60px auto;}
+
+.saveroll-content {position: relative; top: 70px;}
+
+.rollcheckbox {margin: 30px auto 20px auto;}
+.rollcheckbox ul {display: inline-block; padding: 0;}
+.rollcheckbox li { text-align: left; list-style: none;}
+
+/*_________________________________admin.php_________________________________*/
+
+#query-textarea {height: 250px;}
+#query-panel {font: 16px 'Raleway', sans-serif; color: #444444;}
+
+/*________________________________responsive_________________________________*/
+
+@media (max-width: 767px) {
+	.navbar-collapse {padding: 0;}
+	.navbar-nav li a {text-align: center; line-height: 40px;}
+	.index-banner-content p {width: 280px; font-size: 18px;}
+	.account-button {text-align: center;}
+	#resubmitpref-textarea {width: 80%;}
+	.textarea-form {width: 80%;}
+	.table-responsive {border: none;}
+	#groupby-heading {padding-left: 8px;}
+	.studentlistoptions-table {font-size: 15px;}
+}
+
+@media (max-height: 400px) {
+	.index-banner {height: 400px;}
+	.index-banner-content {position: absolute; top: 220px;}
+}
